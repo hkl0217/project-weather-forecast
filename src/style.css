@@ -49,10 +49,10 @@ header {
 
 .weather-data {
     display: flex;
-    justify-content: space-between;
+    justify-content: space- between;
 }
 
-.weather-forecast-details{
+.weather-forecast-details {
     color: #a28f70;
     font-size: 17px;
     line-height: 24px;
@@ -61,7 +61,6 @@ header {
 
 .weather-forecast-details strong {
     color:#674f04;
-    fornt-weight: bolod;
 }
 
 .weather-forecast-temp {
