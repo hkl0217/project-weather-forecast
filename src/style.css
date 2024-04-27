@@ -41,13 +41,15 @@ header {
     font-weight: bold;
 }
 
+.weather-forecast-data {
+    display: flex;
+    justify-content: space-between;
+}
+
 .weather-forecast-temp {
     font-size: 60px;
     color: #a28f70;
     line-height: 20px
-    position: relative;
-    top: -130px;
-    right: 200px
 }
 
 footer {
