@@ -38,6 +38,11 @@ header {
     border: none;
     border-radius: 7px;
     margin-left: 4px;
+    font-weight: bold;
+}
+
+.weather-forecast-data {
+    display: flex;
 }
 
 footer {
