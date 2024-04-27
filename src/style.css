@@ -40,6 +40,10 @@ header {
     font-weight: bold;
 }
 
+.heading{
+    margin: 0;
+}
+
 .weather-data {
     display: flex;
     justify-content: space-between;
