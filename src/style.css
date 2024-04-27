@@ -22,9 +22,10 @@ header {
 
 .city-in-search {
     background-color: #f5f0e8;
-    width: 80%;
+    width: 70%;
     padding: 10px 15px;
     font-size: 17px;
+    font-weight: lighter;
     border: none;
     border-radius: 7px;
 }
@@ -37,7 +38,6 @@ header {
     border: none;
     border-radius: 7px;
     margin-left: 4px;
-    font-weight: bold;
     width: 20%;
 }
 
