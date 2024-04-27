@@ -43,6 +43,7 @@ header {
 
 .weather-forecast-data {
     display: flex;
+    justify-content: space-between;
 }
 
 footer {
