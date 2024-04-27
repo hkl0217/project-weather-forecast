@@ -33,7 +33,6 @@ header {
     background: #f5f0e8;
     color: #674f04;
     padding: 12px 19px;
-    width: 35%
     font-size: 19px;
     border: none;
     border-radius: 7px;
@@ -41,7 +40,7 @@ header {
     font-weight: bold;
 }
 
-.weather-forecast-data {
+.weather-data {
     display: flex;
     justify-content: space-between;
 }
