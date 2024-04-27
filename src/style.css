@@ -1,13 +1,14 @@
 body {
     background-color: #f5f0e8;
-    font-family: ;
+    font-family: "Roboto", sans-serif;
 }
 
 .primary {
     background-color: #e8d6bb;
     max-width: 500px;
-    margin: 30px 20px 30px 20px;
+    margin: 50px auto;
     padding: 20px;
     border-radius: 7px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.10);
+
 }
