@@ -32,12 +32,13 @@ header {
 .search-city-button {
     background: #f5f0e8;
     color: #674f04;
-    padding: 12px 19px;
-    font-size: 19px;
+    padding: 10px 16px;
+    font-size: 17px;
     border: none;
     border-radius: 7px;
     margin-left: 4px;
     font-weight: bold;
+    width: 20%;
 }
 
 .weather-data {
