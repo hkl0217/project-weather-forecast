@@ -42,12 +42,12 @@ header {
 }
 
 .weather-forecast-temp {
-    font-size: 70px;
+    font-size: 60px;
     color: #a28f70;
     line-height: 20px
     position: relative;
-    top: -135px;
-    left: 450px:
+    top: -130px;
+    right: 200px
 }
 
 footer {
