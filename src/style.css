@@ -16,7 +16,7 @@ a {
 }
 
 header {
-    border-bottom: 1px dashed #efdcbf;
+    border-bottom: 1px solid #efdcbf;
     padding: 10px 0 20px 0;
 }
 
@@ -41,13 +41,14 @@ header {
     font-weight: bold;
 }
 
-.weather-forecast-data {
-    display: flex;
-    justify-content: space-between;
+.weather-forecast-temp {
+    position: relative;
+    top: -100px;
+    left: 150px:
 }
 
 footer {
-    border-bottom: 1px dashed #efdcbf;
+    border-bottom: 1px solid #efdcbf;
     padding: 10px 0 10px 0;
     text-align: center;
     font-size: 12px;
