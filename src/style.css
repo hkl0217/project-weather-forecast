@@ -13,6 +13,11 @@ body {
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.10);
 }
 
+header {
+    border-bottom: 2px solid #f5f0e8;
+    padding: 5 0 20px 0;
+}
+
 .city-in-search {
     background-color: #f5f0e8;
     width: 80%;
@@ -27,7 +32,14 @@ body {
     color: #674f04;
     padding: 12px 19px;
     width: 35%
-    font-size: 17px;
+    font-size: 19px;
     border: none;
     border-radius: 7px;
+    margin-left: 4px;
+}
+
+footer {
+    border-bottom: 2px solid #f5f0e8;
+    padding: 20px 0 10px 0;
+    text-align: center;
 }
