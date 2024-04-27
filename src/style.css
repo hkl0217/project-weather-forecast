@@ -44,11 +44,10 @@ header {
 .weather-forecast-temp {
     font-size: 70px;
     color: #a28f70;
-    font-weight: bold;
     line-height: 20px
     position: relative;
-    top: -120px;
-    left: 250px:
+    top: -135px;
+    left: 450px:
 }
 
 footer {
