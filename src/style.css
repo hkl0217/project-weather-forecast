@@ -12,11 +12,12 @@ body {
     border-radius: 7px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.10);
 }
-
-.city-in-search {
-    background-color: #f5f0e8;
+.search-form{
     border: none;
     border-radius: 7px;
+}
+.city-in-search {
+    background-color: #f5f0e8;
     width: 80%;
     padding: 10px 15px;
     font-size: 17px;
@@ -26,9 +27,6 @@ body {
     background: #f5f0e8;
     color: #f5f0e8;;
     padding: 7px 12px;
-    width: 40%
-    font-size: 15px;
-    border-radius: 7px:
-    border: none;
-    font-size: 20px;
+    width: 30%
+    font-size: 17px;
 }
