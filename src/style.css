@@ -42,6 +42,9 @@ header {
 
 .heading{
     margin: 0;
+    font-size: 50px;
+    line-height: 70px;
+    color: #674f04;
 }
 
 .weather-data {
