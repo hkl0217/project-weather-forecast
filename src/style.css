@@ -29,6 +29,7 @@ header {
     font-size: 17px;
     border: none;
     border-radius: 7px;
+    color: #998463;
 }
 
 .search-city-button {
@@ -50,8 +51,8 @@ header {
 }
 
 .weather-data {
-    display: inline-flex;
-    justify-content: space- between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .weather-forecast-details {
