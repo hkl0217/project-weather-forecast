@@ -3,9 +3,11 @@ body {
     font-family: "Roboto", sans-serif;
     color: #674f04;
 }
+
 a {
     color: #674f04;
 }
+
 .primary {
     background-color: #e8d6bb;
     max-width: 500px;
@@ -48,7 +50,7 @@ header {
 }
 
 .weather-data {
-    display: flex;
+    display: inline-flex;
     justify-content: space- between;
 }
 
@@ -56,11 +58,12 @@ header {
     color: #998463;
     font-size: 17px;
     line-height: 24px;
-
 }
 
 .weather-forecast-details strong {
     color:#674f04;
+    font-size: 13px;
+    font-weight: 300px;
 }
 
 .weather-forecast-temp {
