@@ -68,7 +68,8 @@ header {
     color: #a28f70;
     line-height: 20px;
     position: relative;
-    left: -150px;
+    left: -250px;
+    bottom: 50px;
 }
 
 footer {
