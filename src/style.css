@@ -43,21 +43,25 @@ header {
     font-weight: bold;
 }
 
-.heading {
+h1 {
     margin: 0;
     font-size: 50px;
     line-height: 70px;
     color: #674f04;
 }
 
+.weather-data-details {
+    display: flex;
+    justify-content: space-between;
+}
 
-.weather-forecast-details {
+.weather-forecast-info {
     color: #998463;
     font-size: 17px;
     line-height: 24px;
 }
 
-.weather-forecast-details strong {
+.weather-forecast-info strong {
     color:#674f04;
     font-size: 19px;
     font-weight: 300px;
@@ -67,11 +71,11 @@ header {
     font-size: 50px;
     color: #a28f70;
     line-height: 20px;
-    position: relative;
-    left: -250px;
-    bottom: 50px;
 }
 
+.weather-forecast-details {
+  display: flex;  
+}
 footer {
     border-bottom: 1px solid #efdcbf;
     padding: 10px 0 10px 0;
