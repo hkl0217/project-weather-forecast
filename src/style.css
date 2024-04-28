@@ -50,10 +50,6 @@ header {
     color: #674f04;
 }
 
-.weather-data {
-    display: flex;
-    justify-content: space-between;
-}
 
 .weather-forecast-details {
     color: #998463;
