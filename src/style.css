@@ -50,10 +50,6 @@ header {
     color: #674f04;
 }
 
-.weather-data {
-    display: flex;
-    justify-content: space-between;
-}
 
 .weather-forecast-details {
     color: #998463;
@@ -71,6 +67,8 @@ header {
     font-size: 50px;
     color: #a28f70;
     line-height: 20px;
+    position: relative;
+    left: -150px;
 }
 
 footer {
