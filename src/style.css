@@ -50,7 +50,7 @@ h1 {
     color: #674f04;
 }
 
-.weather-data-details {
+.weather-data {
     display: flex;
     justify-content: space-between;
 }
@@ -68,7 +68,7 @@ h1 {
 }
 
 .weather-forecast-temp {
-    font-size: 50px;
+    font-size: 40px;
     color: #a28f70;
     line-height: 20px;
 }
