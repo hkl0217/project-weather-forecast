@@ -5,4 +5,4 @@ function handleSearhSubmit(event){
 }
 
 let searchFormCity = document.querySelector("#search-form");
-searchformCity.addEventListener("submit", handleSearhSubmit )
+searchformCity.addEventListener("submit", handleSearhSubmit);
