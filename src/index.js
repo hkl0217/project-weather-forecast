@@ -1,2 +1,8 @@
+function handleSearhSubmit(event){
+    event.preventDefault();
+    let cityInput = document.querySelector("#city-in-search")
+    console.log(searchInput.value);
+}
+
 let searchFormCity = document.querySelector("#search-form");
-console.log(searchFormCity);
+searchformCity.addEventListener("submit", handleSearhSubmit )
