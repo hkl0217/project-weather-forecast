@@ -1,6 +1,6 @@
 function handleSearhSubmit(event){
     event.preventDefault();
-    let cityInput = document.querySelector("#city-in-search")
+    let cityInput = document.querySelector("#city-in-search");
     console.log(cityInput.value);
 }
 
