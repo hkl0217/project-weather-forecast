@@ -1,8 +1,8 @@
 function handleSearhSubmit(event) {
     event.preventDefault();
     let cityInput = document.querySelector("#city-in-search");
-    let heading = document.querySelector("#weather-title");
-    heading.innerHTML = cityInput.value;
+    let headingElement = document.querySelector("#weather-title");
+    headingElement.innerHTML = cityInput.value;
 }
 
 let searchFormCity = document.querySelector("#search-form");
