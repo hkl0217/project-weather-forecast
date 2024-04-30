@@ -50,7 +50,7 @@ h1 {
     color: #674f04;
 }
 
-.weather-data {
+.weather-data-details {
     display: flex;
     justify-content: space-between;
 }
