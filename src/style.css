@@ -73,6 +73,12 @@ h1 {
     line-height: 20px;
 }
 
+.weather-forecast-unit {
+    font-size: 32px;
+    color: #674f04;
+    line-height: 17px;
+}
+
 .weather-forecast-details {
   display: flex;  
 }
