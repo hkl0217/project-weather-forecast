@@ -1,7 +1,8 @@
 function handleSearhSubmit(event){
     event.preventDefault();
     let cityInput = document.querySelector("#city-in-search");
-    console.log(cityInput.value);
+    let headingSubject = document.querySelector("#heading");
+    headingSubject.innerHTML = cityInput.value;
 }
 
 let searchFormCity = document.querySelector("#search-form");
