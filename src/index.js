@@ -4,7 +4,7 @@ function updateWeather(response) {
     let headingElement = document.querySelector("#heading");
 
 
-    headingElement.innerHTML = cresponse.data.city;
+    headingElement.innerHTML = response.data.city;
     temperatureElement.innerHTML = Math.round(temperature);
 }
 
