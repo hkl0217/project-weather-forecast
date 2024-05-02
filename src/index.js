@@ -4,7 +4,7 @@ function updateWeather(response) {
     let headingElement = document.querySelector("#heading");
     let forecastElement = document.querySelector("#forecast");
 
-    forecastElement.innerHTML = response.data.condition.descrition;
+    forecastElement.innerHTML = response.data.condition.description;
     headingElement.innerHTML = cityInput.value;
     temperatureElement.innerHTML = Math.round(temperature);
 }
