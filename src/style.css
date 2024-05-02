@@ -52,7 +52,6 @@ h1 {
 
 .weather-data-details {
     display: flex;
-    justify-content: space-between;
 }
 
 .weather-forecast-info {
@@ -79,9 +78,7 @@ h1 {
     line-height: 17px;
 }
 
-.weather-forecast-details {
-  display: flex;  
-}
+
 footer {
     border-bottom: 1px solid #efdcbf;
     padding: 10px 0 10px 0;
