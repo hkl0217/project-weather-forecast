@@ -1,9 +1,14 @@
 function updateWeather(response) {
     let temperatureElement = document.querySelector("#temperature");
     let temperature = response.data.temperature.current;
+
     let forecastElement = document.querySelector("#forecast");
+    let humidityElement = document.querySelector("#humidity");
+    let speedElement = document.querySelector("#speed");
 
     forecastElement.innerHTML = response.data.condition.description;
+    humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
+    speedElement.innerHTML = `${response.data.wind.speed}km/h`;
     temperatureElement.innerHTML = Math.round(temperature);
 }
 
