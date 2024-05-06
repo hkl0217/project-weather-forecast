@@ -54,7 +54,7 @@ h1 {
     padding: 30px 0;
 }
 
-.weather-data-details {
+.container {
     display: flex;
     justify-content: space-between;
 }
