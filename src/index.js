@@ -16,12 +16,12 @@ function updateWeather(response) {
 }
 
 function showDate(date) {
-    let today = date.getDay();
+    let day = date.getDay();
     let minutes = date.getMinutes();
     let hours = date.getHours();
 
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    let today = days[date.getDay()];
+    let today = days[day];
 
     if (minutes < 10) {
         minutes =`0${minutes}`;
