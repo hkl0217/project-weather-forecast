@@ -71,12 +71,6 @@ h1 {
     font-weight: 300px;
 }
 
-.weather-forecast-details{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 .weather-forecast-icon {
     font-size: 35px;
 }
