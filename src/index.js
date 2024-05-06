@@ -27,7 +27,7 @@ function showDate(date) {
         minutes =`0${minutes}`;
     }
 
-    return `${today}, ${hours}:${minutes}`;
+    return `${today}, ${hours}:${minutes},`;
 }
 
 function searchCity(city) {
