@@ -71,24 +71,26 @@ h1 {
     font-weight: 300px;
 }
 
+.weather-forecast-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .weather-forecast-icon {
     font-size: 35px;
-    margin-right: -20px;
 }
 
 .weather-forecast-temp {
     font-size: 50px;
     color: #a28f70;
     line-height: 20px;
-    margin-bottom: 20px;
 }
 
 .weather-forecast-unit {
     font-size: 32px;
     color: #826b47;
     line-height: 17px;
-    margin-left: 20px;
-    margin-bottom: 20px;
 }
 
 footer {
