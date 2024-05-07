@@ -45,6 +45,8 @@ header {
 
 h1 {
     margin: 0;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 .heading {
@@ -52,8 +54,6 @@ h1 {
     line-height: 70px;
     color: #674f04;
     padding: 30px 0;
-    margin-top: 30px;
-    margin-bottom: 0;
 }
 
 .weather-data-details {
@@ -69,8 +69,8 @@ h1 {
 
 .weather-forecast-info strong {
     color:#674f04;
-    font-size: 19px;
-    font-weight: 300px;
+    font-size: 17px;
+    font-weight: 200px;
 }
 
 .weather-forecast-icon {
@@ -84,7 +84,7 @@ h1 {
     font-size: 50px;
     color: #a28f70;
     line-height: 20px;
-    margin-left: 20px;
+    margin-left: 0;
     margin-right: 0;
 }
 
