@@ -84,9 +84,12 @@ h1 {
 }
 
 .weather-forecast-unit {
-    font-size: 32px;
+    font-size: 27px;
     color: #826b47;
     line-height: 17px;
+    margin-left: 0;
+    margin-right: 50px;
+    margin-bottom: 10px;
 }
 
 footer {
