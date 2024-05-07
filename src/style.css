@@ -76,15 +76,15 @@ h1 {
 .weather-forecast-icon {
     font-size: 35px;
     margin-right: -50px;
-    margin-left: 70px;
-    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
 }
 
 .weather-forecast-temp {
     font-size: 50px;
     color: #a28f70;
     line-height: 20px;
-    margin-left: 0;
+    margin-left: 20px;
     margin-right: 0;
 }
 
@@ -92,8 +92,8 @@ h1 {
     font-size: 27px;
     color: #826b47;
     line-height: 17px;
-    margin-left: -70px;
-    margin-right: 120px;
+    margin-left: -50px;
+    margin-right: 100px;
     margin-bottom: 30px;
 }
 
