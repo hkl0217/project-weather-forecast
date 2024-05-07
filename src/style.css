@@ -87,9 +87,9 @@ h1 {
     font-size: 27px;
     color: #826b47;
     line-height: 17px;
-    margin-left: 0;
-    margin-right: 50px;
-    margin-bottom: 10px;
+    margin-left: -100px;
+    margin-right: 150px;
+    margin-bottom: 20px;
 }
 
 footer {
