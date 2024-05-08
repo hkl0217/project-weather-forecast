@@ -97,6 +97,16 @@ h1 {
     align-items: center;
 }
 
+.days-in-column {
+    color: #91774d;
+    font-size: 14px;
+}
+
+.temp-variations {
+    color: #b79f79;
+    font-size: 12px;
+}
+
 footer {
     border-bottom: 1px solid #efdcbf;
     padding: 10px 0 10px 0;
