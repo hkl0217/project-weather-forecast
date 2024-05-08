@@ -9,9 +9,10 @@ a {
 }
 
 .primary {
+    margin: 0 auto;
     background-color: #e8d6bb;
     max-width: 500px;
-    margin: 30px 20px 30px 20px;
+    /* margin: 30px 20px 30px 20px; */
     padding: 20px 15px 10px 15px;
     border-radius: 7px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.10);
@@ -64,7 +65,6 @@ h1 {
 .weather-forecast-info {
     color: #998463;
     font-size: 17px;
-    line-height: 24px;
 }
 
 .weather-forecast-info strong {
@@ -75,9 +75,7 @@ h1 {
 
 .weather-forecast-icon {
     font-size: 35px;
-    margin-right: -20px;
     margin-left: 0;
-    margin-bottom: -20px;
 }
 
 .weather-forecast-temp {
@@ -92,9 +90,11 @@ h1 {
     font-size: 27px;
     color: #826b47;
     line-height: 17px;
-    margin-left: -30px;
-    margin-right: 70px;
-    margin-bottom: 30px;
+}
+
+.weather-temperature {
+    display: flex;
+    align-items: center;
 }
 
 footer {
