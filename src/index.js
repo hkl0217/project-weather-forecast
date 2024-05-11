@@ -50,21 +50,21 @@ searchFormCity.addEventListener("submit", handleSearhSubmit);
 
 function displayForecast() {
  let days = ["SUN", "MON", "TUES", "WED", "THURS"];
- let forecastHTML = "";
+ let weeklyForecast = "";
 
  days.forEach(function (day) {
-    forecastHTML =
-    forecastHTML -
+    weeklyForecast =
+    weeklyForecast -
        `<div class = "days-in-row">
-            <div class = "days-in-column">$ </div>
+            <div class = "days-in-column">${days} </div>
             <div class = "icon-in-column"> ⛅️ </div>
             <div class="temp-variations">
                  <span class="max-temp"> 34°C </span>
-                <span class="min -temp"> 26°C </span>
+                <span class="min-temp"> 26°C </span>
             </div>
         </div>`;
     });
 
-    let forecastElement = document.querySelector("#weekly-forecast");
-    forecastElement.innerHTML = forecastHTML;
+    let weeklyForecastElement = document.querySelector("#weekly-forecast");
+    weeklyForecastElement.innerHTML = weeklyForecast;
 }
