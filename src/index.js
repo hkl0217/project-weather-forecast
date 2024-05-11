@@ -43,28 +43,34 @@ function handleSearhSubmit(event) {
 
     headingElement.innerHTML = cityInput.value;
     searchCity(cityInput.value);
+    
 }
 
 let searchFormCity = document.querySelector("#search-form");
 searchFormCity.addEventListener("submit", handleSearhSubmit);
 
+
 function displayForecast() {
  let days = ["SUN", "MON", "TUES", "WED", "THURS"];
- let weeklyForecast = "";
+ let weeklyForecastHtml = "";
 
  days.forEach(function (day) {
-    weeklyForecast =
-    weeklyForecast -
-       `<div class = "days-in-row">
+      weeklyForecastHtml =
+        weeklyForecastHtml +
+        ` <div class = "days-in-row">
             <div class = "days-in-column">${days} </div>
             <div class = "icon-in-column"> ⛅️ </div>
             <div class="temp-variations">
                  <span class="max-temp"> 34°C </span>
                 <span class="min-temp"> 26°C </span>
             </div>
-        </div>`;
+        </div> `;
     });
+
+    weeklyForecastElement.innerHTML = weeklyForecastHtml;
 
     let weeklyForecastElement = document.querySelector("#weekly-forecast");
     weeklyForecastElement.innerHTML = weeklyForecast;
+
+    displayForecast ();
 }
