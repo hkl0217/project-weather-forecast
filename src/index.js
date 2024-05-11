@@ -67,10 +67,8 @@ function displayForecast() {
         </div> `;
     });
 
-    weeklyForecastElement.innerHTML = weeklyForecastHtml;
-
     let weeklyForecastElement = document.querySelector("#weekly-forecast");
-    weeklyForecastElement.innerHTML = weeklyForecast;
+    weeklyForecastElement.innerHTML = weeklyForecastHtml;
 
     displayForecast ();
 }
