@@ -49,13 +49,14 @@ let searchFormCity = document.querySelector("#search-form");
 searchFormCity.addEventListener("submit", handleSearhSubmit);
 
 function displayForecast() {
- let days = ["MON", "TUES", "WED", "THURS, "FRI", "SAT"];
+ let days = ["SUN", "MON", "TUES", "WED", "THURS"];
  let forecastHTML = "";
 
  days.forEach(function (day) {
-    forecastHTML =+
+    forecastHTML =
+    forecastHTML -
        `<div class = "days-in-row">
-            <div class = "days-in-column">${day} </div>
+            <div class = "days-in-column">$ </div>
             <div class = "icon-in-column"> ⛅️ </div>
             <div class="temp-variations">
                  <span class="max-temp"> 34°C </span>
