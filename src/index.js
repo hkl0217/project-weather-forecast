@@ -54,8 +54,9 @@ function displayForecast() {
  let days = ["SUN", "MON", "TUES", "WED", "THURS"];
  let weeklyForecastHtml = "";
 
- days.forEach(function (day) {
-      weeklyForecastHtml =+
+ days.forEach(function (days) {
+      weeklyForecastHtml =
+        weeklyForecastHtml +
         ` <div class = "days-in-row">
             <div class = "days-in-column">${days} </div>
             <div class = "icon-in-column"> ⛅️ </div>
