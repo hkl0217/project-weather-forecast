@@ -35,6 +35,7 @@ function searchCity(city) {
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(updateWeather);
 }
+searchCity ();
 
 function handleSearhSubmit(event) {
     event.preventDefault();
@@ -45,7 +46,6 @@ function handleSearhSubmit(event) {
     searchCity(cityInput.value);
     
 }
-
 let searchFormCity = document.querySelector("#search-form");
 searchFormCity.addEventListener("submit", handleSearhSubmit);
 
@@ -75,7 +75,6 @@ function displayForecast() {
     let weeklyForecastElement = document.querySelector("#weekly-forecast");
     weeklyForecastElement.innerHTML = weeklyForecastHtml;
 }
-    searchCity ();
     getData ();
     displayForecast ();
     
