@@ -13,6 +13,8 @@ function updateWeather(response) {
     speedElement.innerHTML = `${response.data.wind.speed}km/h`;
     timeElement.innerHTML = showDate(date);
     temperatureElement.innerHTML = Math.round(temperature);
+
+    getData (response.data.city);
 }
 
 function showDate(date) {
@@ -58,7 +60,7 @@ function getData (city) {
 
 function displayForecast(response) {
     console.log(response.data);
-    
+
  let days = ["SUN", "MON", "TUES", "WED", "THURS"];
  let weeklyForecastHtml = "";
 
@@ -78,6 +80,5 @@ function displayForecast(response) {
     let weeklyForecastElement = document.querySelector("#weekly-forecast");
     weeklyForecastElement.innerHTML = weeklyForecastHtml;
 }
-    getData ();
     displayForecast ();
     
