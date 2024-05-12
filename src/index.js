@@ -55,7 +55,7 @@ function getData (city) {
     axios.get(apiUrl).theN(displayForecast);
 }
 
-function displayForecast(respons) {
+function displayForecast() {
  let days = ["SUN", "MON", "TUES", "WED", "THURS"];
  let weeklyForecastHtml = "";
 
