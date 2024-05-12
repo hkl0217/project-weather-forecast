@@ -69,6 +69,5 @@ function displayForecast() {
 
     let weeklyForecastElement = document.querySelector("#weekly-forecast");
     weeklyForecastElement.innerHTML = weeklyForecastHtml;
-
-    displayForecast ();
 }
+    displayForecast ();
