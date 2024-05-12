@@ -14,7 +14,6 @@ function updateWeather(response) {
     timeElement.innerHTML = showDate(date);
     temperatureElement.innerHTML = Math.round(temperature);
 
-    getData (response.data.city);
 }
 
 function showDate(date) {
@@ -80,5 +79,6 @@ function displayForecast(response) {
     let weeklyForecastElement = document.querySelector("#weekly-forecast");
     weeklyForecastElement.innerHTML = weeklyForecastHtml;
 }
+    getData (response.data.city);
     displayForecast ();
     
