@@ -79,6 +79,6 @@ function displayForecast(response) {
     let weeklyForecastElement = document.querySelector("#weekly-forecast");
     weeklyForecastElement.innerHTML = weeklyForecastHtml;
 }
-    getData (response.data.city);
+    getData ();
     displayForecast ();
     
