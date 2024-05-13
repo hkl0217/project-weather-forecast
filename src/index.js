@@ -61,12 +61,12 @@ function displayForecast(response) {
 
  let weeklyForecastHtml = "";
 
- response.data.daily.forEach(function () {
+ response.data.daily.forEach(function (response.data.daily) {
       weeklyForecastHtml =
         weeklyForecastHtml +
         ` <div class = "days-in-row">
             <div class = "days-in-column">Tues</div>
-            <div><img src="${day.condition.icon_url}" class = "icon-in-column" /> </div>
+            <div><img src="${day.daily.condition.icon_url}" class = "icon-in-column" /> </div>
             <div class="temp-variations">
                  <span class="max-temp"> ${Math.round(day.temperature.minimum)}°C </span>
                 <span class="min-temp"> ${Math.round(day.temperature.maximum)}°C </span>
