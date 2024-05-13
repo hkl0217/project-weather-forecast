@@ -61,7 +61,7 @@ function displayForecast(response) {
 
  let weeklyForecastHtml = "";
 
- response.data.daily.forEach(function (days) {
+ response.data.daily.forEach(function () {
       weeklyForecastHtml =
         weeklyForecastHtml +
         ` <div class = "days-in-row">
