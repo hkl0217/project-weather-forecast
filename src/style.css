@@ -107,6 +107,12 @@ h1 {
     font-size: 12px;
 }
 
+.days-in-forecast {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
 footer {
     border-bottom: 1px solid #efdcbf;
     padding: 10px 0 10px 0;
