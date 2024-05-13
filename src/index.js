@@ -54,7 +54,7 @@ function forecastDay (timestamp) {
     let date = new Date (timestamp * 1000);
     let days = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"];
 
-    return days [DataTransfer.getDay()];
+    return days [date.getDay()];
 }
 
 function getData (city) {
@@ -64,12 +64,10 @@ function getData (city) {
 }
 
 function displayForecast(response) {
-    console.log(response.data);
-
  let weeklyForecastHtml = "";
 
  response.data.daily.forEach(function (day, index) {
-    if (index < 5)
+    if (index < 5) {
       weeklyForecastHtml =
         weeklyForecastHtml +
         ` <div class = "days-in-row">
@@ -80,7 +78,8 @@ function displayForecast(response) {
                 <span class="min-temp"> ${Math.round(day.temperature.maximum)}° </span>
             </div>
         </div> `;
-    });
+    }
+ });
 
     let weeklyForecastElement = document.querySelector("#weekly-forecast");
     weeklyForecastElement.innerHTML = weeklyForecastHtml;
