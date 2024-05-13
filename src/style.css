@@ -115,6 +115,10 @@ h1 {
     margin-bottom: 10px;
 }
 
+.icon-in-column {
+    width: 17px;
+}
+
 footer {
     border-bottom: 1px solid #efdcbf;
     padding: 10px 0 10px 0;

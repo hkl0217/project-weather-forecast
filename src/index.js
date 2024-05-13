@@ -59,18 +59,18 @@ function getData (city) {
 function displayForecast(response) {
     console.log(response.data);
 
- let days = ["SUN", "MON", "TUES", "WED", "THURS"];
  let weeklyForecastHtml = "";
 
- days.forEach(function (days) {
+ response.data.daily.forEach(function (days) {
       weeklyForecastHtml =
         weeklyForecastHtml +
         ` <div class = "days-in-row">
-            <div class = "days-in-column">${days} </div>
-            <div class = "icon-in-column"> ⛅️ </div>
+            <div class = "days-in-column">Tues</div>
+            <div class = "icon-in-column">
+            <img src="${day.condition.icon_url}" </div>
             <div class="temp-variations">
-                 <span class="max-temp"> 34°C </span>
-                <span class="min-temp"> 26°C </span>
+                 <span class="max-temp"> ${Math.round(day.temperature.minimum)}°C </span>
+                <span class="min-temp"> ${Math.round(day.temperature.maximum)}°C </span>
             </div>
         </div> `;
     });
