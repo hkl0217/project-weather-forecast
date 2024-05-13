@@ -66,8 +66,7 @@ function displayForecast(response) {
         weeklyForecastHtml +
         ` <div class = "days-in-row">
             <div class = "days-in-column">Tues</div>
-            <div class = "icon-in-column">
-            <img src="${day.condition.icon_url}" </div>
+            <div><img src="${day.condition.icon_url}" class = "icon-in-column" /> </div>
             <div class="temp-variations">
                  <span class="max-temp"> ${Math.round(day.temperature.minimum)}°C </span>
                 <span class="min-temp"> ${Math.round(day.temperature.maximum)}°C </span>
