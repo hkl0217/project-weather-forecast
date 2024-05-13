@@ -111,6 +111,8 @@ h1 {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    padding:    20px 10 px 15px 10px;
+    margin: 0;
 }
 
 footer {
