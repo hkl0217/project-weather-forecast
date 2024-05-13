@@ -50,6 +50,13 @@ function handleSearhSubmit(event) {
 let searchFormCity = document.querySelector("#search-form");
 searchFormCity.addEventListener("submit", handleSearhSubmit);
 
+function forecastDay (timestamp) {
+    let date = new Date (timestamp * 1000);
+    let days = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"];
+
+    return days [DataTransfer.getDay()];
+}
+
 function getData (city) {
     let apiKey = "0741f8adfdcfba62f302f1e8627toa94";
     let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
@@ -61,15 +68,16 @@ function displayForecast(response) {
 
  let weeklyForecastHtml = "";
 
- response.data.daily.forEach(function (response.data.daily) {
+ response.data.daily.forEach(function (day, index) {
+    if (index < 5)
       weeklyForecastHtml =
         weeklyForecastHtml +
         ` <div class = "days-in-row">
-            <div class = "days-in-column">Tues</div>
+            <div class = "days-in-column">${forecastDay(day.time)}</div>
             <div><img src="${day.daily.condition.icon_url}" class = "icon-in-column" /> </div>
             <div class="temp-variations">
-                 <span class="max-temp"> ${Math.round(day.temperature.minimum)}°C </span>
-                <span class="min-temp"> ${Math.round(day.temperature.maximum)}°C </span>
+                 <span class="max-temp"> ${Math.round(day.temperature.minimum)}° </span>
+                <span class="min-temp"> ${Math.round(day.temperature.maximum)}° </span>
             </div>
         </div> `;
     });
