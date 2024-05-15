@@ -104,7 +104,7 @@ h1 {
 
 .temp-variations {
     color: #b79f79;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .days-in-forecast {
@@ -116,8 +116,9 @@ h1 {
 }
 
 .icon-in-column {
-    width: 95%;
+    width: 90%;
 }
+
 
 footer {
     border-bottom: 1px solid #efdcbf;
